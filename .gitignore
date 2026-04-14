@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.csv
+analise_sentimentos_nubank_executado.ipynb
+.env
