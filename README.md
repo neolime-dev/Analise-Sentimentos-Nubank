@@ -15,20 +15,20 @@ Análise de sentimentos baseada em regras sobre **3.000 avaliações do Nubank**
 
 | Seção | Descrição |
 |-------|-----------|
-| 1⃣ Imports & Config | Bibliotecas, paleta de cores, estilos |
-| 2⃣ Extração de Dados | `google-play-scraper` — 3.000 avaliações |
-| 3⃣ Pré-processamento | Limpeza, features de texto, extração de versão |
-| 4⃣ VADER + TextBlob | Cálculo de scores e classificação |
-| 5⃣ Requisito Mínimo | Contagem de sentimentos positivo/neutro/negativo |
-| 6⃣ Distribuição de Notas | Histograma e pizza das 1–5 estrelas |
-| 7⃣ Análise por Versão | Notas da versão atual vs versões anteriores |
-| 8⃣ Curtidas × Nota | Violin plot e médias — engajamento por sentimento |
-| 9⃣ Tamanho × Nota | Quem escreve mais? Usuários satisfeitos ou não? |
+| Imports & Config | Bibliotecas, paleta de cores, estilos |
+| Extração de Dados | `google-play-scraper` — 3.000 avaliações |
+| Pré-processamento | Limpeza, features de texto, extração de versão |
+| VADER + TextBlob | Cálculo de scores e classificação |
+| Requisito Mínimo | Contagem de sentimentos positivo/neutro/negativo |
+| Distribuição de Notas | Histograma e pizza das 1–5 estrelas |
+| Análise por Versão | Notas da versão atual vs versões anteriores |
+| Curtidas × Nota | Violin plot e médias — engajamento por sentimento |
+| Tamanho × Nota | Quem escreve mais? Usuários satisfeitos ou não? |
 | Sentimento × Nota | Matriz de concordância + correlação de Pearson |
-| 1⃣1⃣ WordClouds | Palavras mais usadas em avaliações positivas e negativas |
-| 1⃣2⃣ Série Temporal | Evolução mensal do sentimento vs nota média |
-| 1⃣3⃣ Subjetividade | Análise TextBlob: polaridade × subjetividade |
-| 1⃣4⃣ Conclusões | Síntese e tabela comparativa VADER vs TextBlob |
+| WordClouds | Palavras mais usadas em avaliações positivas e negativas |
+| Série Temporal | Evolução mensal do sentimento vs nota média |
+| Subjetividade | Análise TextBlob: polaridade × subjetividade |
+| Conclusões | Síntese e tabela comparativa VADER vs TextBlob |
 
 ## Como executar
 
